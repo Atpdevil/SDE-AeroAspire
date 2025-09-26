@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Page</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    #toggleSection { margin: 10px 0; padding: 10px; border: 1px solid #ccc; }
+    .error { color: red; font-size: 0.9em; }
+    .submitted-data { margin-top: 10px; padding: 10px; border: 1px solid green; background: #0ac90a; }
+  </style>
+</head>
+<body>
+
+  <!-- Greeting Section -->
+  <h2 id="greeting"></h2>
+
+  <!-- Toggle Section -->
+  <button id="toggleBtn">Hide Section</button>
+  <div id="toggleSection">
+    <p>This section can be hidden or shown.</p>
+  </div>
+
+  <!-- Form Section -->
+  <h3>Submit Your Info</h3>
+  <form id="myForm">
+    <label>
+      Name: <input type="text" id="name" required>
+    </label><br><br>
+    <label>
+      Email: <input type="email" id="email" required>
+    </label><br><br>
+    <button type="submit">Submit</button>
+    <p class="error" id="error"></p>
+  </form>
+
+  <!-- Display Submitted Data -->
+  <div id="output"></div>
+
+  <script>
+    // 1. Show greeting based on time
+    const greetingEl = document.getElementById('greeting');
+    const now = new Date();
+    const hour = now.getHours();
+    let greetingText = '';
+    if (hour < 12) greetingText = 'Good Morning!';
+    else if (hour < 18) greetingText = 'Good Afternoon!';
+    else greetingText = 'Good Evening!';
+    greetingEl.textContent = greetingText;
+
+    // 2. Hide/Show section
+    const toggleBtn = document.getElementById('toggleBtn');
+    const toggleSection = document.getElementById('toggleSection');
+    toggleBtn.addEventListener('click', () => {
+      if (toggleSection.style.display === 'none') {
+        toggleSection.style.display = 'block';
+        toggleBtn.textContent = 'Hide Section';
+      } else {
+        toggleSection.style.display = 'none';
+        toggleBtn.textContent = 'Show Section';
+      }
+    });
+
+    // 3. Form submission and validation
+    const form = document.getElementById('myForm');
+    const output = document.getElementById('output');
+    const errorEl = document.getElementById('error');
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault(); // prevent page reload
+
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+
+      // Simple validation
+      if (!name || !email) {
+        errorEl.textContent = 'Please fill out all fields.';
+        return;
+      }
+      const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+      if (!email.match(emailPattern)) {
+        errorEl.textContent = 'Please enter a valid email.';
+        return;
+      }
+
+      errorEl.textContent = ''; // clear errors
+
+      // Show data
+      const dataDiv = document.createElement('div');
+      dataDiv.className = 'submitted-data';
+      dataDiv.innerHTML = `<strong>Name:</strong> ${name}<br><strong>Email:</strong> ${email}`;
+      output.appendChild(dataDiv);
+
+      form.reset(); // clear form
+    });
+  </script>
+
+</body>
+</html>
