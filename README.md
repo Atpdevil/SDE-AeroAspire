@@ -1,2 +1,3 @@
-Helo this is readme file
-yes
+SDE-AeroAspire
+Week 1 - 
+    Day 1 :
