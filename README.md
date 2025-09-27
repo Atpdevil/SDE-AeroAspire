@@ -3,5 +3,5 @@ This repository documents my daily tasks, assignments, and projects completed du
 The goal is to showcase my progress, learning journey, and contributions during the internship period.
 
 # - Week 1 - <br>
-  # - Day 1 : <br>
-    - 
+Day 1 : <br>
+ 
