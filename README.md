@@ -4,12 +4,12 @@ The goal is to showcase my progress, learning journey, and contributions during 
 
 # ➔ Week 1 <br>
 Day 1 : <br>
->> Focused on building the foundation of a simple HTML web page. Created "About," "Photo," and "Contact" sections and styled them using CSS. Implemented a structured layout with a header, navigation bar, and footer, experimenting with both Flexbox and Grid for alignment and positioning.<br>
+ Focused on building the foundation of a simple HTML web page. Created "About," "Photo," and "Contact" sections and styled them using CSS. Implemented a structured layout with a header, navigation bar, and footer, experimenting with both Flexbox and Grid for alignment and positioning.<br>
 Day 2 : <br>
->> Enhanced interactivity with JavaScript by creating a dynamic greeting that changes based on the current time of day. Added a toggle button to show or hide sections for better user experience. Designed and implemented a contact form with fields for name and email, enabling client-side validation and displaying submitted data directly on the page without requiring reload.<br>
+ Enhanced interactivity with JavaScript by creating a dynamic greeting that changes based on the current time of day. Added a toggle button to show or hide sections for better user experience. Designed and implemented a contact form with fields for name and email, enabling client-side validation and displaying submitted data directly on the page without requiring reload.<br>
 Day 3 : <br>
->> Set up project version control using Git. Initialized the repository, staged and committed daily work, and practiced branching workflows by creating a feature branch and merging changes after review. Learned to manage progress systematically for collaborative development.<br>
+ Set up project version control using Git. Initialized the repository, staged and committed daily work, and practiced branching workflows by creating a feature branch and merging changes after review. Learned to manage progress systematically for collaborative development.<br>
 Day 4 : <br>
-> Refined the project with responsive design improvements to ensure the layout adapts across different screen sizes. Successfully deployed the web application using GitHub Pages for online access. Finalized and documented the project setup, usage, and workflow in a README file.<br>
- Day 5 : <br>
->> This involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience. I also improved the website's mobile friendliness by refining layout adjustments and font sizes for smaller screens and ensuring the navigation menu functioned seamlessly on mobile devices.
+ Refined the project with responsive design improvements to ensure the layout adapts across different screen sizes. Successfully deployed the web application using GitHub Pages for online access. Finalized and documented the project setup, usage, and workflow in a README file.<br>
+Day 5 : <br>
+ This involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience. I also improved the website's mobile friendliness by refining layout adjustments and font sizes for smaller screens and ensuring the navigation menu functioned seamlessly on mobile devices.
