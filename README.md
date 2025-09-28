@@ -4,7 +4,7 @@ The goal is to showcase my progress, learning journey, and contributions during 
 
 # ➔ Week 1 <br>
 Day 1 : <br>
- Focused on building the foundation of a simple HTML web page. Created "About," "Photo," and "Contact" sections and styled them using CSS. Implemented a structured layout with a header, navigation bar, and footer, experimenting with both Flexbox and Grid for alignment and positioning.<br>
+&nbsp;&nbsp;&nbsp; Focused on building the foundation of a simple HTML web page. Created "About," "Photo," and "Contact" sections and styled them using CSS. Implemented a structured layout with a header, navigation bar, and footer, experimenting with both Flexbox and Grid for alignment and positioning.<br>
 Day 2 : <br>
  Enhanced interactivity with JavaScript by creating a dynamic greeting that changes based on the current time of day. Added a toggle button to show or hide sections for better user experience. Designed and implemented a contact form with fields for name and email, enabling client-side validation and displaying submitted data directly on the page without requiring reload.<br>
 Day 3 : <br>
