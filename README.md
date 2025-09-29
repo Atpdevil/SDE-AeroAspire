@@ -13,3 +13,5 @@ Day 4 : <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Refined the project with responsive design improvements to ensure the layout adapts across different screen sizes. Successfully deployed the web application using GitHub Pages for online access. Finalized and documented the project setup, usage, and workflow in a README file.<br>
 Day 5 : <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience. I also improved the website's mobile friendliness by refining layout adjustments and font sizes for smaller screens and ensuring the navigation menu functioned seamlessly on mobile devices.
+
+# ➔ Week 2 <br>
