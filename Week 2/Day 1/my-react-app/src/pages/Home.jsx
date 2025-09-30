@@ -7,7 +7,7 @@ import Stack from '@mui/material/Stack'
 export default function Home() {
 return (
 <div>
-<Typography variant="h3" component="h1" gutterBottom>
+<Typography variant="h3" component="h1" gutterBottom sx={{ color: "black" }}>
 Welcome to your Vite + React + MUI Homepage
 </Typography>
 

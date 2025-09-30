@@ -5,9 +5,13 @@ import CssBaseline from '@mui/material/CssBaseline'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import './index.css'
 
-
-const theme = createTheme()
-
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#4caf50"
+    },
+  },
+});
 
 createRoot(document.getElementById('root')).render(
 <React.StrictMode>

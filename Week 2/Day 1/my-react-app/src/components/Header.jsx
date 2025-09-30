@@ -9,12 +9,12 @@ import Box from '@mui/material/Box'
 
 export default function Header() {
 return (
-<AppBar position="static">
+<AppBar position="static"  sx={{ backgroundColor: "#4caf50" }}>
 <Toolbar>
-<IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+<IconButton edge="start" color="inherit" aria-label="menu">
 <MenuIcon />
 </IconButton>
-<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+<Typography variant="h6" component="div" sx={{ backgroundColor: "#4caf50" }}>
 My Vite React App
 </Typography>
 <Box>
