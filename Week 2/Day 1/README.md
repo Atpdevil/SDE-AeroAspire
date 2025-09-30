@@ -13,11 +13,11 @@
 
 1. Create app (replace `my-react-app` with the folder name)
 ```
-npm create vite@latest my-app -- --template react
+npm create vite@latest my-react-app -- --template react
 ```
 2. Enter folder
 ```
-cd my-app
+cd my-react-app
 ```
 3. Install dependencies
 ```
