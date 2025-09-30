@@ -1,17 +1,33 @@
-![alt text](./images/image.png)
-# React + Vite
+# Week 2 Day 1 - [Sep29]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Task/Assignment
+- Scaffold app
+- setup basic folder structure 
+- Create homepage with MUI Typography and AppBar
 
-Currently, two official plugins are available:
+## Images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot](./Image/image.PNG)
 
-## React Compiler
+## Steps
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Create app (replace `my-react-app` with the folder name)
+```
+npm create vite@latest my-app -- --template react
+```
+2. Enter folder
+```
+cd my-app
+```
+3. Install dependencies
+```
+npm install
+```
+4. Install Material UI (MUI) + emotion + icons
+```
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
+```
+5. Start dev server
+```
+npm run dev
+```
