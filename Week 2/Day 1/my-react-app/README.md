@@ -1,6 +1,3 @@
-
-
-
 ![alt text](./images/image.png)
 # React + Vite
 
