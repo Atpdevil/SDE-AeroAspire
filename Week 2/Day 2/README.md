@@ -6,7 +6,7 @@
 
 ## Images
 
-![Screenshot](./Image/img.PNG)
+![Screenshot](./Image/image.PNG)
 
 ## What I Did in This Task
 
