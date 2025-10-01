@@ -1,0 +1,68 @@
+:root {
+--accent: #2563eb;
+}
+
+* { box-sizing: border-box; }
+body {
+margin: 0;
+font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+background: var(--bg);
+color: #0f172a;
+}
+
+
+.app {
+max-width: 960px;
+margin: 40px auto;
+padding: 16px;
+}
+
+.heading {
+font-size: 1.6rem;
+margin: 0 0 18px 0;
+}
+
+.task-list {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 16px;
+}
+
+.task-card {
+background:#87b8af;
+border-radius: 12px;
+padding: 14px;
+box-shadow: 0 6px 18px rgba(13, 45, 186, 0.06);
+display: flex;
+justify-content: space-between;
+gap: 12px;
+align-items: flex-start;
+}
+
+.task-card.completed {
+opacity: 0.75;
+text-decoration: line-through;
+}
+
+.task-left { flex: 1 1 auto; }
+.task-title { margin: 0 0 6px 0; font-size: 1.05rem; }
+.task-desc { margin: 0; color: var(--muted); font-size: 0.95rem; }
+
+.task-right { display: flex; flex-direction: column; gap: 10px; align-items: flex-end; min-width: 140px; }
+.meta { font-size: 0.88rem; color: var(--muted); display: flex; flex-direction: column; gap: 6px; text-align: right; }
+
+.toggle-btn {
+cursor: pointer;
+background: #5e5d63;
+color: white; 
+border: none;
+border: 1px solid rgba(37,99,235,0.12);
+padding: 8px 10px;
+border-radius: 8px;
+min-width: 110px;
+font-weight: 500;
+}
+
+.toggle-btn:hover { 
+    background: #000000; 
+}
