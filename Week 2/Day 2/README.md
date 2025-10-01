@@ -1,4 +1,4 @@
-# Week 2 Day 2 - [Oct 1]
+# Week 2 Day 2 - [Sep 30]
 
 ## Task/Assignment
 - TaskCard component;
