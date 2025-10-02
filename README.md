@@ -7,11 +7,11 @@ The goal is to showcase my progress, learning journey, and contributions during 
 ### Day 2 :- On Day 2, I Enhanced interactivity with JavaScript by creating a dynamic greeting that changes based on the current time of day.
 ### Day 3 :- On Day 3, I Initialized the repository, staged and committed daily work.
 ### Day 4 :- On Day 4, I Finalized and documented the project setup, usage, and workflow in a README file.
-### Day 5 :- On Day 5, I This involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience.
+### Day 5 :- On Day 5, I involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience.
 
 # ➔ Week 2 <br>
 
-### Day 1 :- On Day 1, This project demonstrates the use of React components and props by building a simple TaskCard component.
+### Day 1 :- On Day 1, I Created a project which demonstrates the use of React components and props by building a simple TaskCard component.
 ### Day 2 :- On Day 2, I Created a TaskCard component in React + TypeScript to display individual tasks.
 ### Day 3 :- On Day 3, I Added ability to add tasks and strike down whichever is completed.
 ### Day 4 :- On Day 4, I Added routing: Home, Add Task, About, Navigation bar, Save tasks to localStorage. 
