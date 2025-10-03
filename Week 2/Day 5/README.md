@@ -1,10 +1,10 @@
 # Week 2 Day 5 - [Oct 4]
 
-## 📌 Day 5 Task – Search, Filter, Theme Toggle, and Local Storage
+## Day 5 Task – Search, Filter, Theme Toggle, and Local Storage
 
 - On Day 5, I enhanced the Task Manager application by adding search, filter, theme toggle, and localStorage persistence on top of the existing task CRUD system.
 
-## 🔍 Search Functionality
+## Search Functionality
 
 - A search bar allows users to filter tasks by typing part of the title or description.
 - It updates in real-time as the user types.
