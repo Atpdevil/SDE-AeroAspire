@@ -13,7 +13,7 @@ export interface Task {
   id: number;
   title: string;
   description: string;
-  dueDate: string; // YYYY-MM-DD
+  dueDate: string;
   priority: "High" | "Medium" | "Low" | string;
   completed: boolean;
 }
