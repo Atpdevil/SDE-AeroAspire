@@ -16,3 +16,7 @@ The goal is to showcase my progress, learning journey, and contributions during 
 #### Day 3 :- On Day 3, I Added ability to add tasks and strike down whichever is completed.
 #### Day 4 :- On Day 4, I Added routing: Home, Add Task, About, Navigation bar, Save tasks to localStorage. 
 #### Day 5 :- On Day 5, I enhanced the Task Manager application by adding search, filter, theme toggle, and localStorage persistence on top of the existing task CRUD system.
+
+# ➔ Week 3 <br>
+
+#### Day 1 :- On Day 1, I Built a Flask REST API with a proper project structure, including routes for “Hello World,” GET /tasks, and POST /tasks, using in-memory task storage.
