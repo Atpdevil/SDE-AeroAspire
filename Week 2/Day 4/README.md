@@ -1,12 +1,13 @@
 # Week 2 Day 4 - [Oct 3]
 
-## Task/Assignment :
+## Task/Assignment
+
 - Add routing: Home, Add Task, About;
 - Navigation bar, Save tasks to localStorage;
 - Load on mount;
 - Polish UI; icons; theming;
 
-## Images :
+## Images
 
 1. The Home Page of Task Manager
 
@@ -18,25 +19,33 @@
 
 ![Screenshot3](./Image/about.PNG)
 
-## Steps :
+## Steps
+
 1. Create project
-```
+
+```bash
 npm create vite@latest react-router -- --template react-ts
 ```
-2. Go into project folder
-```
+
+Go into project folder
+
+```bash
 cd react-router
 ```
-3. Install dependencies
-```
+
+Install dependencies
+
+```bash
 npm install
 ```
-4. Install Material UI
-```
+
+Install Material UI
+
+```bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
-## What i did in this task :
+## What i did in this task
 
 - Implemented React Router to add multiple pages: Home, Add Task, and About, allowing smooth navigation across the app.
 - Created a navigation bar for easy access to different pages.
@@ -44,7 +53,7 @@ npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 - On app load, tasks are fetched from localStorage and displayed automatically.
 - Enhanced the UI/UX with polished styling, icons, and theming for better user experience.
 
-## How It Works :
+## How It Works
 
 - Users can navigate between pages using the navigation bar.
 - Tasks added via the "Add Task" page are saved in the browser’s localStorage.
