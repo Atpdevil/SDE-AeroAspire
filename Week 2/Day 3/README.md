@@ -1,6 +1,7 @@
 # Week 2 Day 3 - [Oct 1]
 
 ## Task/Assignment
+
 - Add ability to add tasks;
 - Manage state;
 - Fetch effects if needed (dummy), Create form using MUI TextFields and Buttons;
@@ -38,4 +39,4 @@
 
 - Mark Done Button: If a user completes a task, they can click the button to mark it as done.
 - When clicked, the button text changes to “✓ Done.”
-- Clicking again can unmark it, returning it to “Mark Done.”
+- Clicking again can unmark it, returning it to “Mark Done.

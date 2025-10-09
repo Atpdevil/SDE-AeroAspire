@@ -1,8 +1,9 @@
 # Week 2 Day 1 - [Sep29]
 
 ## Task/Assignment
+
 - Scaffold app
-- setup basic folder structure 
+- setup basic folder structure
 - Create homepage with MUI Typography and AppBar
 
 ## Images
@@ -11,23 +12,32 @@
 
 ## Steps
 
-1. Create app (replace `my-react-app` with the folder name)
-```
+Create app (replace `my-react-app` with the folder name)
+
+```bash
 npm create vite@latest my-react-app -- --template react
 ```
-2. Enter folder
-```
+
+Enter folder
+
+```bash
 cd my-react-app
 ```
-3. Install dependencies
-```
+
+Install dependencies
+
+```bash
 npm install
 ```
-4. Install Material UI (MUI) + emotion + icons
-```
+
+Install Material UI (MUI) + emotion + icons
+
+```bash
 npm install @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
-5. Start dev server
-```
+
+Start dev server
+
+```bash
 npm run dev
 ```

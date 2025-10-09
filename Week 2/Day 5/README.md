@@ -12,7 +12,7 @@
 
 ![screenshot1](./Image/search.PNG)
 
-### Added a dropdown to filter tasks by status:
+### Added a dropdown to filter tasks by status
 
 - All → Show every task.
 - Pending → Show only tasks that are not completed.
@@ -42,7 +42,7 @@
 
 ![screenshot5](./Image/counter.PNG)
 
-## When the app loads:
+## When the app loads
 
 - It retrieves tasks from localStorage (if any exist).
 - Otherwise, it uses default sample tasks.
@@ -51,37 +51,35 @@
 
 ## Task Card Enhancements
 
-### Each task card clearly shows:
+### Each task card clearly shows
 
 - Title (with strikethrough when completed).
 - Description, Due Date, and Priority.
 - Completion status using a checkbox.
 - Users can toggle tasks between Pending and Completed with one click.
 
-## Calender in Addtask :
+## Calender in Addtask
 
-- Gives Calender option so the user can add to any dates wanted 
+- Gives Calender option so the user can add to any dates wanted
 
 ![screenshot7](./Image/calender.PNG)
 
-<br>
-<br>
-
 ## Extra Images
 
-### Home Page :
+### Home Page
 
 ![screenshot8](./Image/home.PNG)
 
-### AddTask Page :
+### AddTask Page
 
 ![screenshot9](./Image/addtask.PNG)
 
-### About Page :
+### About Page
 
 ![screenshot10](./Image/about.PNG)
 
-### Theme Changer :
+### Theme Changer
 
 ![screenshot11](./Image/theme2.PNG)
 
+---

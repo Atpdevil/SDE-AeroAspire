@@ -1,6 +1,7 @@
 # Week 2 Day 2 - [Sep 30]
 
 ## Task/Assignment
+
 - TaskCard component;
 - Render list of dummy tasks via props;
 
@@ -28,4 +29,4 @@
 
 - Mark Done Button: If a user completes a task, they can click the button to mark it as done.
 - When clicked, the button text changes to “✓ Done.”
-- Clicking again can unmark it, returning it to “Mark Done.”
+- Clicking again can unmark it, returning it to “Mark Done.
