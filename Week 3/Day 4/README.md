@@ -92,7 +92,7 @@ In the Example Value box, replace the default JSON with your own data, for examp
 ```bash
 {
   "title": "Buy Milk",
-  "completed": false
+  "completed": True
 }
 ```
 
