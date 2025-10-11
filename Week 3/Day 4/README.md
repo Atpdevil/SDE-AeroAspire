@@ -13,8 +13,7 @@ flask-api/
 ├── app.py
 ├── openapi.yaml
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ### Create & activate a virtual environment
