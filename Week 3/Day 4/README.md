@@ -1,4 +1,4 @@
-# Flask API — Week 3 Day 4 (Documentation, Versioning & Local Dev Deployment)
+# Flask API — Week 3 Day 4 [Oct 10]
 
 ## Learning Tasks
 
