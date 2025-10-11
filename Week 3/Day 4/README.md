@@ -111,7 +111,7 @@ Click **Execute**.
 ```bash
 {
   "title": "Brought Milk",
-  "completed": false
+  "completed": True
 }
 ```
 
