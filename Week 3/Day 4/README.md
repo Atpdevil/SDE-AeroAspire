@@ -9,7 +9,7 @@
 ### Project structure
 
 ```bash
-flask-api/
+swagger-api/
 ├── app.py
 ├── openapi.yaml
 ├── requirements.txt
