@@ -1,4 +1,4 @@
-# Flask API — Week 3 Day 4 [Oct 10]
+# Swagger API — Week 3 Day 4 [Oct 10]
 
 ## Learning Tasks
 
