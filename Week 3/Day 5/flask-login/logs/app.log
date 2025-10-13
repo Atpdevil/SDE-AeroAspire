@@ -1,9 +1,0 @@
-2025-10-12 20:10:06,433 INFO app: Index route called
-2025-10-12 20:10:13,281 INFO app: Index route called
-2025-10-12 20:10:39,315 INFO app: New user registered: alice
-2025-10-12 20:10:43,208 INFO app: Index route called
-2025-10-12 20:11:01,428 INFO app: User logged in: alice
-2025-10-12 20:15:39,364 INFO app: Index route called
-2025-10-12 20:18:05,787 INFO app: New user registered: gokul
-2025-10-12 20:18:30,692 INFO app: User logged in: gokul
-2025-10-12 20:21:07,158 INFO app: Index route called
