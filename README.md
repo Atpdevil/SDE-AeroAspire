@@ -42,3 +42,5 @@ The goal is to showcase my progress, learning journey, and contributions during 
 #### Day 2 : On Day 2, I Built a Flask React with PUT & DELETE Parameter passing in URLs and Path vs Query parameters, using PostMan
 
 #### Day 3 : On Day 3, I Implemented error handling, input validation, and CORS in the Flask API, then connected and tested it with a React frontend
+
+#### Day 4 : On Day 4, I Created and Versioned a fully functional Flask API with swagger documentation and tested its deployment locally
