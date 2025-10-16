@@ -1,4 +1,4 @@
-# Flask CRUD API (Day 2 Project)
+# Flask CRUD API - Week 4 Day 1 [Oct 13]
 
 ## Project Overview
 
