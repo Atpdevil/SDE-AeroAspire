@@ -5,6 +5,8 @@ The goal is to showcase my progress, learning journey, and contributions during 
 
 ## Weekwise Tasks
 
+---
+
 ### ➔ Week 1
 
 ---
@@ -18,6 +20,8 @@ The goal is to showcase my progress, learning journey, and contributions during 
 #### Day 4 : On Day 4, I Finalized and documented the project setup, usage, and workflow in a README file
 
 #### Day 5 : On Day 5, I involved implementing smooth hover effects on navigation links, images, and content sections to create a more interactive and polished user experience
+
+---
 
 ### ➔ Week 2
 
@@ -33,6 +37,8 @@ The goal is to showcase my progress, learning journey, and contributions during 
 
 #### Day 5 : On Day 5, I enhanced the Task Manager application by adding search, filter, theme toggle, and localStorage persistence on top of the existing task CRUD system
 
+---
+
 ### ➔ Week 3
 
 ---
@@ -44,3 +50,21 @@ The goal is to showcase my progress, learning journey, and contributions during 
 #### Day 3 : On Day 3, I Implemented error handling, input validation, and CORS in the Flask API, then connected and tested it with a React frontend
 
 #### Day 4 : On Day 4, I Created and Versioned a fully functional Flask API with swagger documentation and tested its deployment locally
+
+#### Day 5 : On Day 5, I Addded JWT auth to Flask tasks API and updated Swagger
+
+---
+
+### ➔ Week 4
+
+---
+
+#### Day 1 : On Day 1, I set up a Python project, created a SQLite database with tables, and tested inserting and querying data
+
+#### Day 2 : On Day 2, I set up the Flask app, connected it to the database, created models and API routes, tested endpoints in Postman, and verified CRUD operations were working
+
+#### Day 3 : On Day 3, I Seeded DB, added search/filter, indexed columns, and used Flask-Migrate
+
+#### Day 4 : On Day 4, I Created DB setup and seed scripts, connected React frontend to Flask API, and handled empty data and DB errors
+
+#### Day 5 : On Day 5, Connected the React frontend to the Flask + SQLite backend, fetched tasks, and handled empty data and database errors
