@@ -83,50 +83,57 @@ python app.py
 npm start
 ```
 
-Runs → <http://localhost:3000>
+**Runs → <http://localhost:3000>**
 
-🧠 Error Handling Logic
-Scenario Behavior
-Database connection error Shows "Unable to load tasks. Please check backend connection."
-Empty DB table Shows "No tasks found."
-Successful fetch Displays full task list
-CORS or network error Caught by React .catch() and shown on screen
-✅ Expected Output
+---
+![screenshot](./Image/img1.PNG)
 
-Backend (Postman or browser)
-GET <http://127.0.0.1:5000/api/tasks>
+---
 
+## Error Handling Logic
+
+### Scenario Behavior
+
+- Database connection error Shows "Unable to load tasks. Please check backend connection."
+- Empty DB table Shows "No tasks found."
+- Successful fetch Displays full task list
+- CORS or network error Caught by React .catch() and shown on screen
+
+**Expected Output**.
+
+```bash
 [
   {"id": 1, "title": "Test Task 1"},
   {"id": 2, "title": "Test Task 2"}
 ]
+```
 
-Frontend (Browser UI)
+**Frontend (Browser UI)**.
 
+```bash
 Task List
 Test Task 1
 Test Task 2
+```
 
-. Frontend connection
+## Frontend connection
 
-You connected your React app (localhost:3000) to your Flask API (localhost:5000).
+- Connected your React app (localhost:3000) to your Flask API (localhost:5000).
+- Handled CORS via flask-cors.
+- Verified API working from both backend and frontend (tasks loading).
 
-You handled CORS via flask-cors.
+### Error handling for DB
 
-You verified API working from both backend and frontend (tasks loading).
+- Set up backend error handling — returning clear JSON errors like:
 
-2. Error handling for DB
-
-You set up backend error handling — returning clear JSON errors like:
-
+```bash
 return jsonify({'error': 'Database connection failed'}), 500
+```
 
-You handled try/except blocks in Flask routes to catch DB issues.
+- Handled try/except blocks in Flask routes to catch DB issues.
 
-3. Edge cases
+### Edge cases
 
-✅ Handled blank DB (showing “No tasks available” or “Unable to load tasks”).
-
-✅ Handled backend error (500 Internal Server Error handled gracefully).
-
-✅ Handled empty data or failed API calls in React using .catch().
+- Handled blank DB (showing “No tasks available” or “Unable to load tasks”).
+- Handled backend error (500 Internal Server Error handled gracefully).
+- Handled empty data or failed API calls in React using .catch().
