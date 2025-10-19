@@ -1,4 +1,4 @@
-# AeroAspire Internship – Software Development Engineer
+# AeroAspire Internship – Software Developer Engineer
 
 **This repository documents my daily tasks, assignments, and projects completed during my internship at AeroAspire as a Software Development Engineer (SDE). It includes practical exercises, coding projects, and hands-on learning experiences in web development, JavaScript, HTML/CSS, and responsive design**.
 
