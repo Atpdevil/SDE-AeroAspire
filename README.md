@@ -4,8 +4,6 @@
 
 ## Weekwise Tasks
 
----
-
 ### ➔ Week 1
 
 ---
