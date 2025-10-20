@@ -65,3 +65,13 @@
 #### Day 4 : On Day 4, I Created DB setup and seed scripts, connected React frontend to Flask API, and handled empty data and DB errors
 
 #### Day 5 : On Day 5, Connected the React frontend to the Flask + SQLite backend, fetched tasks, and handled empty data and database errors
+
+---
+
+### ➔ Week 5
+
+---
+
+#### Day 1 : On Day 1, I Installed Multipass and launched an Ubuntu VM
+
+
