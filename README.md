@@ -73,5 +73,3 @@
 ---
 
 #### Day 1 : On Day 1, I Installed Multipass and launched an Ubuntu VM
-
-
