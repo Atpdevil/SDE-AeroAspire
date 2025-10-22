@@ -55,10 +55,6 @@ Test:
 
 **Go to <http://localhost:5000/api>**
 
-You should see:
-
-**{"message": "Hello from Flask backend!"}**.
-
 ## Setup - Frontend
 
 ### From project root - Frontend
@@ -124,10 +120,10 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ```
 
-### Now in Docker Desktop
+### In Docker Desktop
 
 ---
-![screenshot](./Image/img1.PNG)
+![screenshot](./Images/img1.PNG)
 
 ---
 
