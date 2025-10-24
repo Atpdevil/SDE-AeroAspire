@@ -73,3 +73,9 @@
 ---
 
 #### Day 1 : On Day 1, I Installed Multipass and launched an Ubuntu VM
+
+#### Day 2 : On Day 2, I Dockerized a Flask backend and React frontend, built and ran both containers using Docker and Docker Compose, connected frontend to backend and tested the API and UI successfully
+
+#### Day 3 : On Day 3, I Implemented error handling, input validation, proper HTTP status codes, CORS, and connected the Flask backend with the React frontend while testing endpoints successfully
+
+#### Day 4 (Final Day) : Tested the full Flask–React–MySQL stack locally using Docker Compose, viewed logs, cleaned unused containers/images, and wrote the final README
