@@ -78,4 +78,4 @@
 
 #### Day 3 : On Day 3, I Implemented error handling, input validation, proper HTTP status codes, CORS, and connected the Flask backend with the React frontend while testing endpoints successfully
 
-#### Day 4 (Final Day) : Tested the full Flask–React–MySQL stack locally using Docker Compose, viewed logs, cleaned unused containers/images, and wrote the final README
+#### Day 4 (Final Day) : I Tested the full stack locally, viewed logs using Docker, cleaned unused resources, and documented the deployment process in README
